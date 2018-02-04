@@ -1,0 +1,32 @@
+/*
+	Theme Name: WP Web Meetup
+	Theme URI: https://wpgranada.es
+	Description: Tema realizado creado a medida en WordPress.
+	Author: wpgranada
+	Author URI: https://wpgranada.es
+
+	Version: 1.0
+
+	Template: twentysixteen
+
+	License: GPL-2.0+
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+@import url("../twentysixteen/style.css");
+
+.home .entry-footer,
+.archive .entry-footer {
+    width: 100% !important;
+}
+
+.home .entry-footer span, 
+.home .entry-footer a.url, 
+.home .entry-footer .avatar,
+.archive .entry-footer span, 
+.archive .entry-footer a.url, 
+.archive .entry-footer .avatar {
+    float: left;
+    margin-right: 20px !important;
+}
